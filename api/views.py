@@ -17,7 +17,7 @@ class GuessView(APIView):
             if action in ['start', '<', '>']:
                 data = make_guess(
                     cache=cache,
-                    move=action,
+                    action=action,
                 )
                 return Response(
                     data=data,
