@@ -1,3 +1,4 @@
+
 # TASK: Problem 2 (Guess the number):
 * Use Python or Java for following REST API code
 * User selects an integer number in their mind between 1 - 100.
@@ -69,3 +70,9 @@
 * Write Unit tests.
 * Use redis.
 * Use dockerized backend workers.
+
+---
+## Docker start project
+```
+docker-compose up --build
+```
