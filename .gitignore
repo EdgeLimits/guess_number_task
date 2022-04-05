@@ -71,3 +71,7 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 .pyc
+*.pyc
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
