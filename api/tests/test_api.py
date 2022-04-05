@@ -2,8 +2,6 @@ from rest_framework import status
 from rest_framework.test import APITestCase
 
 
-# https://github.com/encode/django-rest-framework/blob/master/tests/test_serializer.py
-
 class TestGuessView(APITestCase):
     def test_action_start(self):
         data = {
